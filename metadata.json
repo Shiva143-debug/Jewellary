@@ -1,0 +1,6 @@
+{
+  "name": "Aurum Fine Jewelry",
+  "description": "A luxury responsive jewelry shopping application featuring gold-themed styling, dynamic floating animations, customer checkout, saved addresses, a secure admin manager, and Stripe payment gateway integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

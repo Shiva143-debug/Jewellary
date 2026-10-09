@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  --color-gold-light: #F7E7C4;
+  --color-gold: #D4AF37;
+  --color-gold-dark: #AA7C11;
+  --color-gold-bright: #FFD700;
+  
+  --color-dark-rich: #111111;
+  --color-dark-card: #1C1C1C;
+}
+
+/* Base style for Frosted Glass Theme */
+html, body {
+  background: radial-gradient(circle at top left, #1a1a1a, #000000) !important;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+/* Glassmorphism Styles */
+.glass {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.glass-dark {
+  background: rgba(10, 10, 10, 0.6) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.gold-text {
+  color: #D4AF37 !important;
+}
+
+.gold-bg {
+  background: linear-gradient(135deg, #D4AF37 0%, #996515 100%) !important;
+}
+
+.gold-border {
+  border-color: #D4AF37 !important;
+}
+
+.admin-glow {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.25) !important;
+  border: 1px solid rgba(212, 175, 55, 0.3) !important;
+}
+
+/* Custom scrolling & glow utility classes */
+.gold-glow {
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+}
+
+.gold-glow-hover {
+  transition: all 0.3s ease;
+}
+
+.gold-glow-hover:hover {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.3);
+  border-color: rgba(212, 175, 55, 0.5) !important;
+}
+
+/* Elegant scrollbar for luxury brand */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 3px;
+}
+

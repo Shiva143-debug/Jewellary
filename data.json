@@ -1,0 +1,142 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Empress Solitaire Diamond Ring",
+      "description": "An exquisite 1.5 Carat round-cut VVS1 diamond set in a pristine claw mount of 18K polished Yellow Gold. The perfect token of eternal love.",
+      "price": 2499,
+      "imageUrl": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=600&auto=format&fit=crop",
+      "category": "Rings",
+      "material": "18K Yellow Gold & Diamond",
+      "weight": "4.2g",
+      "rating": 4.9,
+      "isBestSeller": true
+    },
+    {
+      "id": "2",
+      "name": "Royal Heritage Gold Choker",
+      "description": "A spectacular handcrafted choker made of premium 22K Solid Yellow Gold. Showcases elaborate ancient Indian filigree and royal craftsmanship.",
+      "price": 4850,
+      "imageUrl": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&auto=format&fit=crop",
+      "category": "Necklaces",
+      "material": "22K Solid Yellow Gold",
+      "weight": "18.5g",
+      "rating": 5,
+      "isBestSeller": true
+    },
+    {
+      "id": "3",
+      "name": "Aura Celestial Hoop Earrings",
+      "description": "Stunning textured earrings in 18K Polished Yellow Gold representing orbits of celestial stars. Classy, minimalist, and perfectly balanced.",
+      "price": 890,
+      "imageUrl": "https://images.unsplash.com/photo-1630019852942-f89202989a59?w=600&auto=format&fit=crop",
+      "category": "Earrings",
+      "material": "18K Polished Gold",
+      "weight": "3.8g",
+      "rating": 4.7
+    },
+    {
+      "id": "4",
+      "name": "Gilded Harmony Chain Bracelet",
+      "description": "Contemporary bold interlocking link chain in 18K Italian Yellow Gold. Sleek toggle clasp closure with polished structural finish.",
+      "price": 1250,
+      "imageUrl": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&auto=format&fit=crop",
+      "category": "Bracelets",
+      "material": "18K Italian Yellow Gold",
+      "weight": "8.2g",
+      "rating": 4.8
+    },
+    {
+      "id": "5",
+      "name": "Elysian Emerald Halo Pendant",
+      "description": "Breathtaking 18K Rose Gold pendant showcasing an oval-cut Colombian Emerald surrounded by a micro-paved halo of brilliant conflict-free diamonds.",
+      "price": 3100,
+      "imageUrl": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=600&auto=format&fit=crop",
+      "category": "Necklaces",
+      "material": "18K Rose Gold, Colombian Emerald & Diamond",
+      "weight": "5.1g",
+      "rating": 4.9,
+      "isBestSeller": true
+    },
+    {
+      "id": "6",
+      "name": "Dynasty Filigree Gold Bangle",
+      "description": "A timeless masterpieces of jewelry craftsmanship. This heavy 22K Yellow Gold bangle is carved with intricate traditional floral patterns.",
+      "price": 2200,
+      "imageUrl": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=600&auto=format&fit=crop",
+      "category": "Bangles",
+      "material": "22K Solid Gold",
+      "weight": "14.0g",
+      "rating": 4.8
+    },
+    {
+      "id": "7",
+      "name": "Eternity Diamond Band",
+      "description": "Elegant, modern stackable ring in 18K Yellow Gold encrusted in a continuous channel of pavé-set round brilliant cut diamonds.",
+      "price": 1650,
+      "imageUrl": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=600&auto=format&fit=crop",
+      "category": "Rings",
+      "material": "18K Yellow Gold & Pavé Diamonds",
+      "weight": "3.1g",
+      "rating": 4.6
+    },
+    {
+      "id": "8",
+      "name": "Regal Cascade Drop Earrings",
+      "description": "Spectacular multi-tiered dangling earrings. Structured in 18K textured gold, ending with magnificent natural golden South Sea pearls.",
+      "price": 1980,
+      "imageUrl": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&auto=format&fit=crop",
+      "category": "Earrings",
+      "material": "18K Gold & Golden South Sea Pearls",
+      "weight": "7.6g",
+      "rating": 4.9
+    }
+  ],
+  "newsOffers": [
+    {
+      "id": "n1",
+      "type": "offer",
+      "title": "Akshaya Tritiya Exclusive Offer",
+      "content": "Celebrate prosperity with us. Enjoy a flat 10% instant discount on any gold purchase above $2,000. Use Code: ROYALGOLD10 at checkout.",
+      "discountCode": "ROYALGOLD10",
+      "expiryDate": "2026-08-31",
+      "date": "2026-07-04"
+    },
+    {
+      "id": "n2",
+      "type": "news",
+      "title": "New Bridal Couture Collection Launched",
+      "content": "We are thrilled to unveil our latest Heritage Bridal Collection. Handcrafted by master artisans with heirloom-quality 22K gold, rubies, and premium diamonds.",
+      "imageUrl": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&auto=format&fit=crop",
+      "date": "2026-07-01"
+    }
+  ],
+  "users": [
+    {
+      "id": "admin_user",
+      "email": "admin@aurum.com",
+      "mobile": "9999999999",
+      "password": "$2b$10$qtLft39iLnKSbPUE2kTb4erpqM4oESCb06Q7wYpRgcb.G6OouNVyG",
+      "name": "Aurum Admin",
+      "role": "admin"
+    },
+    {
+      "id": "customer_user",
+      "email": "member@aurum.com",
+      "mobile": "8888888888",
+      "password": "member123",
+      "name": "Charlotte Rose",
+      "role": "customer",
+      "savedAddress": {
+        "fullName": "Charlotte Rose",
+        "phone": "+1 (555) 342-9988",
+        "streetAddress": "742 Evergreen Terrace",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10011",
+        "country": "United States"
+      }
+    }
+  ],
+  "orders": []
+}
